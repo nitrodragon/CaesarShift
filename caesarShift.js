@@ -1,4 +1,4 @@
-var person = prompt("Please enter your text to be enciphered/deciphered.", "NitroDragon is great.");
+var person = window.prompt("Please enter your text to be enciphered/deciphered.", "NitroDragon is great.");
 var caesarShift = function(person, amount) {
   if (amount < 0) {
     return caesarShift(person, amount + 26);
