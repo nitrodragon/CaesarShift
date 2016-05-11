@@ -19,4 +19,32 @@ var caesarShift = function(person, amount) {
     output += c;
   }
   return output;
+  document.write(“Possible Solutions”);
+document.write(caesarShift(person, 0));
+document.write(caesarShift(person, 1));
+document.write(caesarShift(person, 2));
+document.write(caesarShift(person, 3));
+document.write(caesarShift(person, 4));
+document.write(caesarShift(person, 5));
+document.write(caesarShift(person, 6));
+document.write(caesarShift(person, 7));
+document.write(caesarShift(person, 8));
+document.write(caesarShift(person, 9));
+document.write(caesarShift(person, 10));
+document.write(caesarShift(person, 11));
+document.write(caesarShift(person, 12));
+document.write(caesarShift(person, 13));
+document.write(caesarShift(person, 14));
+document.write(caesarShift(person, 15));
+document.write(caesarShift(person, 16));
+document.write(caesarShift(person, 17));
+document.write(caesarShift(person, 18));
+document.write(caesarShift(person, 19));
+document.write(caesarShift(person, 20));
+document.write(caesarShift(person, 21));
+document.write(caesarShift(person, 22));
+document.write(caesarShift(person, 23));
+document.write(caesarShift(person, 24));
+document.write(caesarShift(person, 25));
+
 };
